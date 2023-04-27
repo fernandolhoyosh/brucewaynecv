@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
+@import url('https://fontawesome.com/icons/graduation-cap?f=classic&s=solid&pc=%23250041');
+
 
 h2{
     font-family: 'Bruno Ace SC', cursive;
-    font-size: 2lvw;
+    font-size: 3lvw;
     text-align: center;
     margin: 0;
 }
 
 h3{
+    margin: 0;
     font-family: 'Bruno Ace SC', cursive;
     text-align: center;
-    font-size: 1lvw;
+    font-size: 1.2lvw;
+    color: rgb(13, 10, 203);
 }
 
 
@@ -25,56 +29,71 @@ h4{
 .flex-main-cv{
     margin: auto;
     display: flex;
-    border: black 1px solid;
     width: 60%;
 }
 
 .content-user-info{
     display: flex;
-    background: red;
+    background: linear-gradient(rgb(76, 2, 125), rgba(3, 154, 174, 0.511));
+    border: 0;
     width: 35%;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
     font-size: 1.1lvw;
+    color: white;
 
 }
 
 .content-user-info li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid;
     font-size: 1lvw;
+    padding: 0.5em;
 }
 
 .content-profile-details{
     display: flex;
-    background: rgb(0, 204, 255);
+    background: rgb(233, 232, 232);
     width: 65%;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between
+}
+
+.content-profile-details h4{
+    color: rgb(37, 0, 65);
+    text-align: left;
+    padding-bottom: 0.5em;
+    border-bottom: rgb(62, 1, 108) 2px solid;
+}
+
+.content-profile-details strong{
+    color: rgb(37, 0, 65);
 }
 
 img{
+    border: 0;
     width: 100%;
     height: 50vh;
 }
 
 article{
-    width: 94%;
-    border: rgb(0, 255, 21) 1px solid;
+    width: 85%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: justify;
 }
 
 article p{
+    color: rgb(37, 0, 65);;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1lvw;
     margin: 1em;
 }
 
 article li{
+    color: rgb(37, 0, 65);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1lvw;
     margin: 1em;
@@ -92,4 +111,13 @@ article strong{
     display: flex;
     flex-direction: row;
 
+}
+
+i{
+    width: 10%;
+}
+
+#degradado{
+    width: 100%;
+    background: red;
 }
