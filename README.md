@@ -1,5 +1,10 @@
 Este es un `laboratorio práctico` del modulo de CSS de ADA SCHOOL.
 
+Asi va de momento
+
+![image](https://user-images.githubusercontent.com/108826210/234756623-8969c820-19bc-4780-a8c3-648caba74ff3.png)
+
+
 ## Lo que debes lograr
 
 ¿Como convertirías esta aburrida hoja de vida html de Bruce Wayne, mas conocido como `Batman`
