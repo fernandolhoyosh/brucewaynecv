@@ -2,7 +2,8 @@ Este es un `laboratorio práctico` del modulo de CSS de ADA SCHOOL.
 
 Asi va de momento
 
-![image](https://user-images.githubusercontent.com/108826210/234756623-8969c820-19bc-4780-a8c3-648caba74ff3.png)
+![image](https://user-images.githubusercontent.com/108826210/235049894-0a97298c-51e9-4982-a6ee-e91c2957aee9.png)
+
 
 
 ## Lo que debes lograr
