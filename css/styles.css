@@ -2,6 +2,14 @@
 
 @import url('https://fontawesome.com/icons/graduation-cap?f=classic&s=solid&pc=%23250041');
 
+body{
+   /* background-color: rgb(62, 0, 62);*/
+   background-image: url("../images/batman-img.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+}
+
 
 h2{
     font-family: 'Bruno Ace SC', cursive;
@@ -34,7 +42,7 @@ h4{
 
 .content-user-info{
     display: flex;
-    background: linear-gradient(rgb(76, 2, 125), rgba(3, 154, 174, 0.511));
+    background: linear-gradient(rgba(76, 2, 125, 0.822), rgba(3, 154, 174, 0.511));
     border: 0;
     width: 35%;
     align-items: center;
@@ -46,6 +54,7 @@ h4{
 }
 
 .content-user-info li{
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 1px solid;
     font-size: 1lvw;
@@ -54,7 +63,7 @@ h4{
 
 .content-profile-details{
     display: flex;
-    background: rgb(233, 232, 232);
+    background: rgba(233, 232, 232, 0.538);
     width: 65%;
     align-items: center;
     flex-direction: column;
@@ -73,9 +82,10 @@ h4{
 }
 
 img{
+    border-radius: 10%;
+    margin-top: 1em;
     border: 0;
-    width: 100%;
-    height: 50vh;
+    width: 80%;
 }
 
 article{
@@ -115,9 +125,4 @@ article strong{
 
 i{
     width: 10%;
-}
-
-#degradado{
-    width: 100%;
-    background: red;
 }
